@@ -1,0 +1,75 @@
+{"intents": [
+    {"tag":"welcome",
+      "patterns":["Hi", "Hey", "Hello", "Hae"],
+      "responses":["Hey customer.Great to see you here.i'm Simba KRA's online care assistant."],
+      "context_set":[""]
+    },
+    {"tag": "greetings",
+      "patterns": ["Hi", "How are you?", "Hey there", "Hello", "Hey"],
+      "responses": ["Hello, welcome to KRA's online care assistant.How may I help you?",
+        "welcome customer, good to see you in again,how can I be of help today?",
+        "Hey there, i'm Simba.How may I help you?"],
+      "context_set":[""]
+    },
+    {"tag": "feedback",
+      "patterns": ["Thanks","Thank you","That was helpful"],
+      "responses": ["Happy to help! Care to share your feedback?"],
+      "context_set":[""]
+    },
+    {"tag": "recommendations",
+      "patterns": ["Yes", "Sure", "Yeah", "Okay", "Ofcourse","Indeed","Definitely"],
+      "responses": ["How likely are you to Recommend me to your friends & family?(Zero-not likely; Ten-very likely)"],
+      "context_set":[""]
+    },
+    {"tag":"appreciation",
+      "patterns":["Zero","Ten"],
+      "responses":["Thank you for your feedback! please come back again soon."],
+      "context_set":[""]
+    },
+    {"tag":"thanks",
+      "patterns":["No","Not now","Later","Never","Not quite","Nope","Maybe"],
+      "responses":["Thank you! have a nice day."],
+      "context_set":[""]
+    },
+    {"tag": "apply_Pin",
+      "patterns": ["Pin", "Apply for a pin?", "I don't have a pin", "Apply","How do i apply for a pin?"],
+      "responses": ["You can visit any of our KRA offices closest to you,\n visit www.kra.go.ke to apply for a kRA pin at any time of convinience,\n download the (M-Service App) from Google play store. Follow the steps allocated to apply for pin or you can invoke the Tariff *356*144# and follow the procedure"],
+      "context_set":[""]
+    },
+    {"tag": "tax_compliance",
+      "patterns": ["What is tax compliance?", "How do i get tax compliance?", "Compliance?","TCC","Tax compliance"],
+      "responses": ["A tax compliance, otherwise known as a Tax Clearance Certificate is an official document issued by KRA, as proof of having filed and paid all your taxes. KRA issues the following Tax Compliance Certificates upon application:\n 1. Tax Compliance Certificates for Taxpayers seeking tenders with Government Ministries and Institutions.\n 2. Tax Compliance Certificates to employees leaving service nor seeking new job opportunities. \n 3. Tax Compliance Certificates for taxpayers seeking liquor Licenses. \n 4. Tax Compliance Certificates to Clearing and Forwarding Agents."],
+      "context_set":[""]
+    },
+    {"tag": "turnover_tax",
+      "patterns": ["Tot","How can i pay tot?","what is tot?","Turnover"],
+      "responses": ["Turnover Tax (TOT) is payable by any resident person whose turnover from business does not exceed or is not expected to exceed Kshs 5,000,000 during any year of income for more in formation visit https://www.kra.go.ke/en/business/small-traders/taxation-for-small-traders/turnover-tax-tot."],
+      "context_set":[""]
+    },
+    {"tag": "presumptive_tax",
+      "patterns": ["What is Presumptive Tax?", "Presumptive", "Who is eligible for presumptive?","where can i pay Presumptive?","Pt", "How do i pay my presumptive tax?"],
+      "responses": ["Presumptive Tax (PT) is a simplified tax regime for small and micro enterprises. The Tax is applicable to a resident person with a turnover from business not exceeding Kshs. 5 million during a year of income. The Tax is based on the value of single business permit or a trade License issued/renewed by County Government."],
+      "context_set":[""]
+    },
+    {"tag": "rental_income",
+      "patterns": ["What is mri", "Mri", "What's rental income","How do i pay for rental income?","Rental income","land rates","Rent"],
+      "responses": ["This is tax payable by resident persons (individual or company) on rental income earned for the use of occupation of a residential property where the rent income is between Kshs.144,000(Kshs.12,000 per month) and Kshs.10 million per annum. for more info on Rental income visit https://www.kra.go.ke/en/individual/filing-paying/types-of-taxes/residential-rental-income"],
+      "context_set":[""]
+    },
+    {"tag": "tax_information",
+      "patterns": ["Tax", "KRA"],
+      "responses": ["Tax is a compulsory finacial charge or some other type of levy imposed upon a taxpayer (an individual or legal entity) by a governmental organization (KRA-Kenya) in order to fund government spending and public expenditures.To learn more about your taxes. please visit https://www.kra.go.ke/en/individual/filing-paying/types-of-taxes"],
+      "context_set":[""]
+    },
+    {"tag":"checker",
+      "patterns":["Pin checker","Prn checker","Tcc checker","Wht checker","Status checker","Invoice checker","Agent checker","Control unit checker"],
+      "responses":["To invoke any of the checker services, please visit https://itax.kra.go.ke/KRA-Portal/"],
+      "context_set":[""]
+    },
+    {"tag":"file_returns",
+      "patterns":["returns","file return","Nil","P9 return","TOT return"],
+      "responses":["To invoke the normal filing for returns, please visit https://itax.kra.go.ke/KRA-Portal/ or you can invoke the USSD *356*144#, to file for TOT,Nil and Mri"],
+      "context_set":[""]
+    }
+]
+}
